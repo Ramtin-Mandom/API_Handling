@@ -1,3 +1,4 @@
+from httpx import request
 from pydantic import BaseModel, Field, StrictStr
 
 class InputText(BaseModel):
@@ -9,3 +10,11 @@ class OutputText(BaseModel):
     char_count: int
     c_count: int
     ratio: float
+class OpenAIInput(BaseModel):
+    input: StrictStr
+class OpenAIRequest(BaseModel):
+    request: StrictStr
+class OpenAIResponse(BaseModel):
+    response: StrictStr
+class OpenAIAnalysisResponse(BaseModel):
+    analysis_result: StrictStr
