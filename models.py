@@ -1,7 +1,7 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, StrictStr
 
 class InputText(BaseModel):
-    text: str
+    text: StrictStr
     c: str = Field(..., min_length=1, max_length=1)
 
 class OutputText(BaseModel):
