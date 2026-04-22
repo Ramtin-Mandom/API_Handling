@@ -1,8 +1,8 @@
 import pytest
 from fastapi.testclient import TestClient
 
-from myAPI import app
-from models import (
+from app.myAPI import app
+from app.models import (
     OpenAIRequest,
     OpenAIResponse,
     OpenAIEvaluatedResponse,
@@ -45,10 +45,10 @@ def test_openai_endpoint_success(monkeypatch):
     def fake_final(evaluation, data):
         return OpenAIFinalResult(final_text="summary 2")
 
-    monkeypatch.setattr("myAPI.openai_request_process", fake_process)
-    monkeypatch.setattr("myAPI.openai_request", fake_openai_request)
-    monkeypatch.setattr("myAPI.evaluate_openai_response", fake_evaluate)
-    monkeypatch.setattr("myAPI.final_clean_up", fake_final)
+    monkeypatch.setattr("app.myAPI.openai_request_process", fake_process)
+    monkeypatch.setattr("app.myAPI.openai_request", fake_openai_request)
+    monkeypatch.setattr("app.myAPI.evaluate_openai_response", fake_evaluate)
+    monkeypatch.setattr("app.myAPI.final_clean_up", fake_final)
 
     response = client.post("/openai-request", json={"text": "test"})
     assert response.status_code == 200

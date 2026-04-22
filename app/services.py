@@ -4,7 +4,7 @@ from typing import List
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from models import (
+from .models import (
     OpenAIInput,
     OpenAIRequest,
     OpenAIResponse,
@@ -12,7 +12,7 @@ from models import (
     OpenAIFinalResult,
 )
 
-from prompts import (
+from .prompts import (
     prompts,
     template,
     evaluation_prompt_beginning,
@@ -55,8 +55,7 @@ def _get_openai_client() -> OpenAI:
     Loads environment variables and returns an initialized OpenAI client.
     Raises ConfigurationError if setup is invalid.
     """
-    root_dir = Path(__file__).resolve().parent
-    env_file = root_dir / ".env"
+    env_file = Path(__file__).resolve().parent.parent / ".env"
 
     if not env_file.is_file():
         raise ConfigurationError(

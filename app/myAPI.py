@@ -1,7 +1,11 @@
-from token import OP
 from fastapi import FastAPI
-from models import OpenAIFinalResult, OpenAIInput
-from services import  openai_request_process, openai_request, evaluate_openai_response, final_clean_up
+from .models import OpenAIFinalResult, OpenAIInput
+from .services import (
+    openai_request_process,
+    openai_request,
+    evaluate_openai_response,
+    final_clean_up,
+)
 
 app = FastAPI()
 

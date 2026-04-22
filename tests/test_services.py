@@ -1,7 +1,7 @@
 import pytest
-import services
+from app import services
 
-from models import (
+from app.models import (
     OpenAIInput,
     OpenAIRequest,
     OpenAIResponse,
