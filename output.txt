@@ -1,76 +1,132 @@
 Status code: 200
 
-Here is a detailed summary and critical analysis of the paper:
+**Summary and Critical Analysis of:**
+
+_Evaluating the Implementation of Energy Adaptive Reuse in Historic Buildings: A Case Study of the Historical Raghadan Hotel in Al Tal_  
+Yathreb Sabsaby, Dalia Majzoub (2026)  
+Journal of Building Construction and Planning Research, 14, 96-113. DOI: 10.4236/jbcpr.2026.141005
 
 ---
 
 ### Introduction
 
-The paper "Evaluating the Implementation of Energy Adaptive Reuse in Historic Buildings: A Case Study of the Historical Raghadan Hotel in Al Tal" by Yathreb Sabsaby and Dalia Majzoub investigates adaptive reuse as a sustainable approach for rehabilitating historic buildings in Tripoli, Lebanon. The study focuses on addressing energy inefficiencies, poor thermal comfort, and daylight scarcity in the abandoned Raghadan Hotel by proposing passive, heritage-sensitive architectural interventions. Using a simulation-based framework combined with thermographic analysis, the study evaluates how adaptive reuse can reconcile environmental sustainability with heritage preservation in a Mediterranean urban context.
+This paper investigates adaptive reuse as a sustainable strategy for conserving historic buildings while improving their energy and environmental performance. Using the abandoned Raghadan Hotel in Tripoli, Lebanon, as a case study, the authors emphasize the need for sustainable rehabilitation in heritage sites, which often suffer from inefficiencies but are underutilized in sustainability policy. Aligning with international conservation standards (Venice Charter and Historic Urban Landscape approach), the research focuses on preserving architectural integrity while enhancing thermal comfort, daylighting, and reducing carbon emissions through passive interventions.
 
 ---
 
 ### Key Concepts
 
-- **Adaptive Reuse:** The practice of repurposing historic buildings for modern use while conserving their architectural and cultural values.
-- **Energy Efficiency in Heritage Buildings:** Reducing operational energy consumption while maintaining heritage authenticity, primarily through passive strategies like improved insulation, natural lighting, and thermal mass.
-- **Building Performance Simulation (BPS):** The use of software tools (DesignBuilder and EnergyPlus engine) to model energy consumption, thermal comfort, daylighting, and CO2 emissions of buildings pre- and post-intervention.
-- **Heritage-Sensitive Interventions:** Modifications that respect historic fabric and comply with conservation charters (Venice Charter, HUL framework), focusing on non-invasive, reversible changes like skylights and roof insulation.
+- **Adaptive Reuse:** Converting historic buildings for new functions without compromising their heritage value.
+- **Sustainability in Heritage Conservation:** Balancing environmental goals with cultural and architectural preservation.
+- **Energy Efficiency & Thermal Comfort:** Improving insulation, daylighting, and passive cooling to reduce operational energy use.
+- **Building Performance Simulation (BPS):** Using software (DesignBuilder/EnergyPlus) coupled with infrared thermography to evaluate building performance before and after interventions.
+- **Passive Interventions:** Architectural modifications such as central skylights, roof insulation with terracotta tiles, and stone interior finishes to improve building envelope efficiency without active mechanical systems.
 
 ---
 
 ### Methodology
 
-**Strengths:**
+The authors used a **mixed-method approach**:
 
-- **Case Study Selection:** The choice of Raghadan Hotel, an abandoned historic building in a deteriorating urban fabric, is contextually strong and relevant for Tripoli’s issues with heritage neglect and urban decline.
-- **Mixed-methods Approach:** Combines qualitative literature review with quantitative high-fidelity computer simulations and empirical thermographic diagnostics, enabling a comprehensive performance assessment.
-- **Simulation Tools:** Use of DesignBuilder with validated local climatic data and urban context, including shading and microclimate effects, enhances the model’s relevance and accuracy.
-- **Before and After Comparative Modeling:** Baseline “before” state modeled as an abandoned shell vs. “after” state with passive interventions allows for quantifiable assessment of energy savings, comfort improvement, and CO2 reduction.
-- **Passive Interventions Selection:** Focus on non-invasive measures (central skylight, terracotta roof insulation, stone interior finishes) aligns with heritage conservation principles and local material relevance.
+1. **Literature Review:** To establish theoretical and policy contexts for adaptive reuse and sustainability in heritage conservation.
 
-**Weaknesses and Limitations:**
+2. **Case Study Selection:** The Raghadan Hotel (200 m²) in Al Tal, Tripoli—a neglected historic building in a dense, culturally rich yet deteriorating urban fabric.
 
-- **Baseline Modeling Assumptions:** The “before” scenario assumes complete abandonment and does not represent partially occupied or intermittently used states, which limits understanding of real-world variability.
-- **Exclusion of Active Technologies:** The study does not integrate renewable energy systems or active mechanical upgrades, which could further enhance sustainability.
-- **Material Property Data:** U-values and thermal properties for traditional Lebanese masonry were estimated from literature rather than tested experimentally, potentially reducing simulation precision.
-- **Single Case Study Scope:** While detailed, the focus on a single building limits generalizability; broader application would require multiple case studies across various building types.
+3. **Diagnostic Assessment:** Infrared thermography identified thermal inefficiencies, heat loss, and daylight deficits in the abandoned hotel.
+
+4. **Performance Modeling:**
+   - Utilized DesignBuilder software (EnergyPlus engine) for dynamic simulation.
+   - Developed a "before" model (unoccupied, shell condition) and an "after" model incorporating passive interventions.
+   - Included site-specific details such as neighboring buildings, Mediterranean climate data, and microclimate effects.
+
+5. **Passive Interventions Proposed:**
+   - Installation of a central skylight to enhance natural lighting.
+   - Insulated ceramic tile roof to reduce solar heat gain.
+   - Interior stone cladding to increase thermal mass.
+   These modifications aim to preserve heritage values while improving energy performance.
+
+6. **Performance Metrics Compared:**
+   - Energy consumption (site and source energy)
+   - Thermal comfort and indoor temperature stability
+   - CO2 emissions
+   - Daylighting improvements
 
 ---
 
 ### Results
 
-- **Energy Consumption:** Total Site Energy reduced from approximately 10,983 kWh to 10,506 kWh, with Total Source Energy decreasing from 16,594 kWh to 16,117 kWh, indicating a modest but meaningful improvement in operational efficiency.
-- **Thermal Comfort:** Reductions in heat gain and more stable interior temperatures were observed due to roof insulation and increased thermal mass from stone finishes.
-- **Daylighting:** The addition of a central skylight significantly enhanced natural light levels, decreasing artificial lighting needs.
-- **Carbon Emissions:** CO2 production consistently decreased year-round, with a maximum relative improvement of 6.22% during winter months.
-- **Thermal Imaging:** Infrared thermography identified key problem areas, informing the precise placement of passive interventions.
-- **Urban Implications:** The study situates adaptive reuse not only as conservation but also as a driver for economic revitalization and sustainable tourism within historic dense urban fabrics like Al Tal.
+- **Thermal Performance:** Post-intervention simulations showed significant reductions in thermal heat gains and more stable indoor temperatures, evidenced by cooler roof surfaces and improved color mappings in thermal imaging.
 
-**Reliability of Results:**
+- **Energy Consumption:**  
+  - Total Site Energy decreased from 10,983.26 kWh to 10,506.06 kWh.  
+  - Total Source Energy decreased from 16,594.26 kWh to 16,117.06 kWh.  
+  - Energy intensity per conditioned area improved by approximately 3 kWh/m².
 
-- Results convincingly demonstrate the potential of passive interventions, supported by simulation data.
-- Incorporation of real meteorological and urban shading data adds robustness.
-- However, some reliance on estimated material parameters and model assumptions introduces uncertainty.
-- Lack of empirical post-retrofit validation (real measured energy consumption and comfort data) limits confirmation of modeled predictions.
+- **CO2 Emissions:** Consistent monthly reductions averaging up to 6.22% in winter, with the highest absolute savings in August (11.25 kg CO2).
+
+- **Daylighting:** The central skylight reduced reliance on artificial lighting by enhancing spatial illumination, addressing the daylight deprivation problem in the original design.
+
+- **Retention of Architectural Integrity:** Passive interventions respected the building’s heritage character by using reversible or minimally invasive methods aligned with conservation charters.
 
 ---
 
 ### Conclusion
 
-The study successfully argues that adaptive reuse, when equipped with targeted passive and heritage-compatible modifications, can significantly improve the environmental performance of Mediterranean heritage buildings without compromising their cultural value. It offers a replicable methodology combining thermographic diagnostics with DesignBuilder simulations, filling an important gap in Lebanese heritage conservation practice. The quantifiable reductions in energy use and CO2 emissions underscore the environmental benefits, while maintaining architectural authenticity and promoting urban reactivation.
+The study conclusively shows that adaptive reuse incorporating targeted passive interventions can significantly enhance the energy efficiency, thermal comfort, and environmental sustainability of historic buildings like the Raghadan Hotel without sacrificing their heritage value. This research also provides an adaptable framework based on simulation modeling and thermographic diagnosis that can be applied across Lebanon’s similar urban heritage fabric. This method supports sustainable urban regeneration and climate resilience, bridging conservation practices with modern performance standards.
 
 ---
 
-### Critical Analysis Summary
+## Critical Analysis
 
-- **Methodological Rigor:** The combined use of diagnostic thermography and dynamic energy simulation is a robust approach, allowing detailed identification of weaknesses and objective evaluation of retrofit impacts. The localization of data and modeling context enhance validity.
-- **Strengths:** Clear demonstration of balancing preservation and sustainability; practical passive intervention solutions suitable for Mediterranean climates; useful framework for policymakers and architects focused on cultural-ecological integration.
-- **Weaknesses:** The study's reliance on simulation alone without real performance monitoring post-intervention reduces the empirical strength of the conclusions. The exclusion of active sustainable technologies partially limits the scope of potential improvements. Material data uncertainty and baseline assumptions require cautious interpretation.
-- **Reliability:** While results appear internally consistent and logically justified, they remain predictive until validated by field measurements or monitored retrofits. Still, the methodology and findings provide a valuable reference and benchmarking tool for similar heritage adaptive reuse projects.
+### Methodology Evaluation
+
+- **Strengths:**
+  - Combining qualitative heritage considerations with quantitative energy modeling offers a holistic evaluation framework.
+  - The use of real climate data and urban context modeling improves simulation fidelity, enhancing relevance in Tripoli’s microclimate.
+  - Dual diagnostic methods (infrared thermography + DesignBuilder simulation) strengthen the credibility of thermal performance assessments.
+  - The choice to focus on passive, low-impact interventions respects conservation guidelines and reduces complexity/cost.
+
+- **Weaknesses:**
+  - The baseline model represents an unoccupied, abandoned shell, which may not reflect real-world scenarios where buildings are partially occupied or intermittently used; this restricts applicability to varied occupancy states.
+  - Exclusive focus on passive interventions limits understanding of potential energy savings that could be achieved by integrating active renewable systems (e.g., photovoltaics, HVAC upgrades).
+  - Material properties, especially U-values for traditional Lebanese sandstone, were derived from secondary literature rather than physical testing, potentially reducing simulation accuracy.
+  - The relatively small building sample (one case study) limits generalizability, although it is acknowledged as a pilot framework for replication.
+
+### Strengths of the Paper
+
+- Presents a clear, replicable methodology that merges heritage conservation with modern sustainability imperatives.
+- Use of detailed visual aids (thermal maps, comparative graphs) effectively communicates results.
+- Engagement with international conservation frameworks boosts relevance for global heritage practitioners.
+- Demonstrates measurable environmental benefits (energy and carbon savings) with minimal intervention, advocating for economically feasible retrofitting strategies.
+- Addresses urban scale challenges by situating the case study within a dense historic district, allowing contextualization of results.
+
+### Weaknesses of the Paper
+
+- Limited exploration of socioeconomic factors affecting adaptive reuse feasibility in Al Tal (e.g., funding, policy enforcement, occupant acceptance).
+- The technical scope could be broadened by including active mechanical system improvements or lifecycle cost analyses.
+- Future resilience under climate change scenarios is not addressed; the passive measures' long-term effectiveness amidst rising temperatures is uncertain.
+- Lack of post-occupancy validation since the interventions are simulated rather than physically implemented.
+
+### Reliability of Results
+
+The results appear **reliable within the defined modeling and simulation scope**, due to:
+
+- Careful inclusion of urban context and climate data.
+- Use of widely accepted and validated simulation software (DesignBuilder/EnergyPlus).
+- Corroborative thermographic diagnostics enhancing confidence in baseline condition modeling.
+
+However, the **reliability is limited by assumptions** in material properties and building usage scenarios. Without empirical post-retrofit monitoring or physical testing of materials, the outcomes remain predictive rather than empirically validated.
 
 ---
 
-### Final Remarks
+## Summary: What the Paper Does and How Well It Does It
 
-This paper makes a significant contribution by integrating heritage-sensitive passive upgrades with performance simulation to achieve sustainable retrofitting of historic buildings in Lebanon. Its interdisciplinary framework addresses a pressing gap at the intersection of energy, architecture, and conservation. Future work should expand the sample size, include hybrid (active + passive) retrofit options, improve material testing, and conduct post-occupancy evaluation to strengthen and validate these promising findings.
+This paper successfully demonstrates how adaptive reuse, executed with heritage-sensitive passive interventions, can improve the environmental performance of historic Mediterranean buildings. It offers a robust, context-specific, simulation-based methodology that integrates heritage and sustainability objectives—filling an important applied research gap for Lebanon and similar regions.
+
+The approach is methodologically sound, combining qualitative contextualization with quantitative performance modeling. Results convincingly show energy reductions, improved thermal comfort, and CO2 mitigation, all while preserving architectural integrity.
+
+Nonetheless, the study’s predictive nature, use of assumed material data, and focus on passive systems highlight areas for future empirical validation and expansion. The work is a significant step towards sustainable historic preservation but should be complemented with field implementation and broader case studies for enhanced generalizability and practical impact.
+
+---
+
+**Overall, the paper provides a valuable, well-structured, and insightful contribution to sustainable heritage conservation. Its methodology and findings offer a promising blueprint for adaptive reuse in Mediterranean climates while encouraging further research to extend and verify its conclusions in real-world settings.**
