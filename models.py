@@ -1,20 +1,16 @@
+from cgitb import text
 from httpx import request
-from pydantic import BaseModel, Field, StrictStr
+from typing import Union, List
+from pydantic import BaseModel, StrictStr,StrictInt
 
-class InputText(BaseModel):
-    text: StrictStr
-    c: str = Field(..., min_length=1, max_length=1)
 
-class OutputText(BaseModel):
-    input_text: str
-    char_count: int
-    c_count: int
-    ratio: float
 class OpenAIInput(BaseModel):
-    input: StrictStr
+    text: StrictStr
 class OpenAIRequest(BaseModel):
-    request: StrictStr
+    requests: Union[StrictStr, List[StrictStr]]
 class OpenAIResponse(BaseModel):
-    response: StrictStr
-class OpenAIAnalysisResponse(BaseModel):
-    analysis_result: StrictStr
+    responses: Union[StrictStr, List[StrictStr]]
+class OpenAIEvaluatedResponse(BaseModel):
+    analysis_result: StrictInt
+class OpenAIFinalResult(BaseModel):
+    final_text: StrictStr

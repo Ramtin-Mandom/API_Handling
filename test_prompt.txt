@@ -1,1 +1,221 @@
-give me a life advice regarding to coding
+Evaluating the Implementation of Energy Adaptive Reuse in Historic Buildings: A Case Study of the Historical Raghadan Hotel in Al Tal
+Yathreb Sabsaby, Dalia Majzoub
+Faculty of Architecture—Design & Built Environment, Beirut Arab University, Tripoli, Lebanon.
+DOI: 10.4236/jbcpr.2026.141005   PDF    HTML   XML   61 Downloads   294 Views  
+Abstract
+
+This study assesses adaptive reuse as a sustainable paradigm for historic building rehabilitation using an abandoned hotel in Tripoli, Lebanon, as its main case study. The study tackles systemic issues, such as insufficient natural lighting, inefficient energy use, and poor thermal comfort, that are present in neglected heritage buildings. The study uses a robust simulation-based approach with DesignBuilder software, which includes accurate geometric modeling, thermographic analysis, and local climatic data. This framework makes it possible to compare the building’s performance in its current condition with that after passive, heritage-sensitive changes, such as the installation of a central skylight, specialist stone interior finishes, and roof insulation. Adaptive reuse greatly improves environmental performance without affecting architectural integrity, according to the simulation results. Data obtained after the intervention shows: 1) Enhanced Daylighting with the central skylight that provides enhanced spatial illumination. 2) Thermal Stability by combining insulation and passive cooling to produce more constant interior temperatures. 3) A quantifiable decrease in the total amount of energy used, which is known as energy efficiency. This initiative bridges the gap between historical preservation and climate resilience by providing a data-driven paradigm for the revitalization of Lebanon’s underutilized architectural assets. This study provides a guide for sustainable urban development by showing how passive, non-invasive interventions may transform Tripoli’s historic masonry buildings to meet modern thermal and energy standards. It provides policymakers and architects with an established method to protect cultural identity while dramatically reducing the built environment’s carbon footprint in the Mediterranean.
+
+Keywords
+
+Adaptive Reuse, Sustainable Rehabilitation, Heritage Conservation, Building Performance Simulation (BPS), Thermal Comfort, Urban Reactivation
+
+Share and Cite:
+
+FacebookTwitterLinkedInSina WeiboShare
+Sabsaby, Y. and Majzoub, D. (2026) Evaluating the Implementation of Energy Adaptive Reuse in Historic Buildings: A Case Study of the Historical Raghadan Hotel in Al Tal. Journal of Building Construction and Planning Research, 14, 96-113. doi: 10.4236/jbcpr.2026.141005.
+1. Introduction
+
+The building industry continues to be a major global resource user and a major producer of carbon emissions. Moving to a sustainable built environment is a climatic need in the face of growing urbanization and resource constraints. The adaptive reuse of existing building stock, especially heritage and historic structures, presents an important yet neglected opportunity for sustainable development, given the fact that new construction typically dominates sustainability discourse [1]. These structures make up a sizable amount of the world’s building stock, while being left out of many common policy tools. However, historic buildings frequently have ancient shapes and materials that don’t function up to contemporary standards, creating special technical difficulties for rehabilitation [2]. Repurposing these buildings while maintaining the authenticity and heritage standards established by the Venice Charter (1964) and the Historic Urban Landscape (HUL) approach [3] [4] is the basic difficulty. While adaptive reuse is an interdisciplinary endeavor, its success increasingly relies on overcoming technological restrictions and a lack of performance benchmarking [5]. By extending the life cycle of embodied energy, adaptive reuse, when performed with technical accuracy, integrates environmental sustainability with heritage conservation [6]. Through using the perspective of adaptive reuse, this study examines the energy and environmental performance of heritage sites. The main goal is to examine how particular architectural interventions affect functional, thermal, and energy outcomes while also recognizing the sociocultural significance of these assets. The study seeks to: 1) Consider cultural contexts while evaluating contemporary adaptive reuse concepts. 2) Determine the technological barriers preventing the implementation of energy-efficient historical retrofits. 3) Calculate the treatments’ quantifiable effects on environmental performance.
+
+Using a mixed-method strategy, the study prioritizes quantitative performance modeling that is based on a qualitative literature review. The research focuses on a particular heritage case study to assess physical solutions such as building envelope alterations and spatial realignment, after a baseline review of theory and policy. In order to model performance before and after reuse, DesignBuilder software is used to generate quantitative data. Specifically, energy consumption, thermal comfort, and indoor environment are measured in connection with maintained heritage values. By offering a technical framework for the preservation of Lebanon’s historic buildings, this procedure seeks to create a benchmarked technique for the nation.
+
+2. Adaptive Reuse of Historic Buildings
+
+Retrofitting heritage or historic buildings for new uses while carefully maintaining their architectural integrity and historical relevance is known as adaptive reuse [7]. This approach preserves the built environment’s physical legacy and cultural narratives by allowing obsolete or unused structures to be restored rather than eliminated [8]. According to recent studies, adaptive reuse is now a dynamic architectural strategy that takes into account shifting social, environmental, and urban contexts rather than being just a conservation-based approach [9].
+
+Building typology, heritage value, structural condition, and proposed function all have significant effects on how adaptive reuse is implemented [10]. Interventions vary from straightforward improvements like arranging the interior layout and improving services to extensive restorations that include reprogramming spatial flows, integrating contemporary mechanical systems, and reinforcing the structure. Significant technical obstacles exist in the way of these initiatives, such as navigating strict policy frameworks and integrating new technologies harmoniously into the existing fabric [11].
+
+Although adaptive reuse has economic, social, and environmental advantages, the environmental performance and energy efficiency of the reused asset are the main emphasis of this study [6]. In terms of the environment, keeping existing buildings reduces the carbon footprint linked to waste creation and new construction by extending the building’s life cycle and preserving the embodied energy of building materials [6]. The key to this benefit, according to recent studies, is optimizing energy efficiency in aged structures [12]. Adaptive reuse is consistent with the concepts of the circular economy since it views a building as a long-term asset rather than a disposable item. Although the economic and social benefits—such as neighborhood regeneration and tourism [7] and community identity and urban vitality [1]—are recognized, the fundamental obstacle is still balancing heritage preservation with contemporary energy needs [13].
+
+The adaptive reuse of the Franklin School, a National Historic Landmark from 1869, is a significant technological precedent. The project converted the shuttered school into a highly sustainable training center in collaboration with Perkins Will. The incorporation of a vegetated green roof and a glass-enclosed winter garden in an underutilized back yard was crucial to its success, showing how high-performance features may be included in a historic fabric without sacrificing the “historic gem” [14] (See Figure 1).
+
+Modern research is using diagnostic technologies like infrared thermography [15], performance-based evaluation [16], and sophisticated dynamic simulation modeling [17] more and more to guarantee evidence-based decision-making in deteriorating structures. Technical flaws like thermal bridges, material deterioration, moisture buildup, and sunshine shortfalls must be found using these instruments.
+
+Building upon this literature, the present research utilizes infrared thermography and DesignBuilder simulations to develop a comprehensive performance profile of a heritage hotel in Tripoli. Thermal variations, inadequate envelope performance, and daylight deprivation can all be systematically identified due to
+
+
+
+Figure 1. Adaptive reuse for Franklin School [14].
+
+this dual methodology. This study fits with the Venice Charter (1964) and the HUL framework to build a performance-driven methodology customized for the Lebanese environment by suggesting heritage-compatible interventions, such as central skylights, terracotta-insulated roofs, and stone-based thermal mass increase.
+
+2.1. Energy Conservation Benefit in Adaptive Reuse
+
+Because it eliminates the high energy and material demands associated with new construction, the repurposing of existing building stock is an essential approach for energy conservation [18] [19]. According to empirical statistics, the total energy demand of the built environment can be considerably reduced by adapting and changing existing structures, which use about two-fifths of the energy of new construction. The strategic reuse of an existing structure protects much of the energy already “locked” within its fabric, whereas new construction requires the expenditure of enormous amounts of fresh embodied energy. Aigwi et al. (2023) have observed that adaptive reuse significantly reduces the adverse effects of climate change by utilizing pre-existing materials and avoiding the carbon-intensive demolition process [1].
+
+Upgrading building envelopes and incorporating high-efficiency mechanical systems, such as contemporary HVAC, energy-efficient lighting, and passive thermal comfort techniques, is necessary to improve the energy performance of heritage assets. Buildings can maintain their architectural and cultural relevance while still fulfilling contemporary performance standards thanks to these interventions. Among the specific technological measures are:
+
+High-Performance Envelopes: High-performance glazing for window restorations and insulation for interior spaces [20].
+
+Using already-existing climate-responsive features like indoor courtyards, strong masonry walls, and natural ventilation systems is known as passive design integration.
+
+Harmonizing conventional systems with modern sustainable practices, including the covert incorporation of solar technologies, is known as renewable synchronization [1].
+
+By using this “double strategy,” adaptive reuse reduces operational energy usage while preserving aesthetic and historical qualities, and striking a balance between environmental sustainability and heritage site conservation. By focusing on resource regeneration within the built environment, this strategy exemplifies the circular economy [1].
+
+A Life Cycle Assessment (LCA) was used in a critical analysis of the environmental effects of adaptive reuse to contrast heritage rehabilitation with conventional demolition and reconstruction [21]. The study showed significant reductions in environmental deterioration by assessing the advantages across five effect categories for an edifice in Zabrze, Poland (see Figures 2-5):
+
+82% decrease in the possibility of global warming.
+
+51% less smog is produced.
+
+Acidification was reduced by 27%.
+
+Eutrophication has decreased by 21%.
+
+These results support adaptive reuse as a key tactic for reducing the environmental impact of the building industry. The study does, however, also draw attention to the continuous difficulty of enhancing sustainability and usability without undermining the original fabric’s social, cultural, and historical significance [21].
+
+
+
+Figure 2. LCA system boundary and scope [21].
+
+
+
+Figure 3. Case project: (a) exterior view credited to Krzysztof Skrzypiec, (b) interior 2nd floor credited to Jakub Świerzawski, (c) interior 1st floor credited to Krzysztof Skrzypiec, (d) ground floor plan [21].
+
+
+
+(a)
+
+
+
+(b)
+
+Figure 4. Results of the building element contributions: (a) building components’ environmental impact, (b) roof assembly [21].
+
+
+
+Figure 5. The quantifiable benefit is particularly obvious in avoided global warming potential, at over 80% [21].
+
+Also, promoting adaptive reuse helps achieve further potential energy efficiency in operational and embodied energy of the building sector, as encouraged in the Paris Agreement and the Energy Performance of Buildings Directive of the European Union [22]. That explains how adaptive reuse lies at the intersection of cultural heritage conservation and environmental sustainability. More than just energy and heritage conservation, it also contributes to sustainability.
+
+2.2. Performance Analysis Tools in Adaptive Reuse
+
+Advanced diagnostic and modeling technologies must be integrated in order to assess the effectiveness of adaptive reuse solutions from the perspectives of technical performance and sustainability [23]. Performance analysis, particularly energy modeling and building simulation, is a crucial precondition for well-informed decision-making and the optimization of technical interventions, according to the literature on energy retrofitting.
+
+Tools like infrared thermography, dynamic simulation models, and historic Building Information Modeling (HBIM) have proven invaluable in the specific context of historic reuse [24]. For example, studies conducted in New Zealand showed how well HBIM and infrared thermography work together to assess passive retrofit solutions for historic masonry structures, offering a high-fidelity evaluation of thermal behavior [25]. Using DesignBuilder software for dynamic energy simulation and infrared thermography for envelope diagnostics, the current study employs a two-phase methodology. A strong performance-based analysis is guaranteed by this comprehensive approach:
+
+The diagnostic technique known as infrared thermography is used to detect thermal bridging, moisture intrusion, and localized heat loss in the building envelope. The diagnostic phase helps identify the precise targets for passive intervention by identifying these inadequacies.
+
+DesignBuilder (Simulation): This program is used to forecast operational efficacy. It enables the comparison of pre-intervention and post-intervention states in terms of energy use, thermal comfort, and environmental effect (CO2 emissions).
+
+For engineers and architects, dynamic simulation tools simplify the process and provide a thorough examination of HVAC performance and thermal comfort. Most importantly, these technologies make it easier to find energy inefficiencies and assess possible retrofit effects without sacrificing heritage considerations.
+
+There is a clear need for a localized, data-driven adaptive reuse methodology given Lebanon’s rich but delicate urban fabric. In this paper, a context-sensitive framework that combines localized performance modeling with global best practices is proposed. This study offers a replicable guideline for sustainable reuse interventions that give the environmental resilience and cultural continuity of Lebanese heritage assets top priority by using simulation to define unambiguous benchmarks.
+
+3. Methodology and Case Study Application
+
+3.1. Site Selection and Context: Hotel Raghadan
+
+The Raghadan Hotel, a 200 m2 abandoned building in Al Tal, Tripoli’s high-density urban center, is the subject of the study. This neighborhood is distinguished by decaying historic sites and abandoned “high-rise” monuments that function as cultural and economic reminders of the city’s history, as illustrated in Figure 6. The building’s advanced state of abandonment and its location within an urban fabric experiencing a considerable loss of usable historic buildings make it an attractive case study for adaptive reuse.
+
+
+
+Figure 6. Site selection (Researcher).
+
+3.2. Building Performance Simulation (BPS) Framework
+
+DesignBuilder (version 2025.1), a well-known graphical user interface for the EnergyPlus engine, is used in the study’s high-fidelity simulation workflow. The framework’s goal is to transition from a validated baseline of a neglected historic asset to an adaptive reuse model that maximizes performance. The “Before” baseline model is established as an uninhabited, uninsulated, and abandoned shell in order to guarantee a reliable energy comparison. This baseline takes into consideration the building’s pre-rehabilitation state, which is marked by significant material deterioration and substantial heat gain. The unique urban layout of Al Tal, Tripoli, is incorporated into the model as shown in Figure 7 and Figure 8. The simulation incorporates the following to precisely determine the heat demand and daylight availability:
+
+Adjacent Obstacles: Older relics and nearby exotic high-rises are modeled to take wind and shade blockage into consideration.
+
+Weather Data: To replicate the variations in the Mediterranean climate, the simulation makes use of real-time hourly weather data for Tripoli.
+
+Effects of the Microclimate: Al Tal’s dense constructed environment is designed to replicate localized heat retention and limited natural airflow.
+
+
+
+
+
+(a) (b)
+
+Figure 7. Case study model with its context (Researcher).
+
+
+
+
+
+(a) (b)
+
+Figure 8. Different layout plans for the case study with dimensions and zoning (Researcher).
+
+After the initial baseline model adjustment, a simulation was run for the first time to gather metrics on target performance before intervention, resulting in the first graphs and tables documenting monthly trends on energy consumption, internal heat gain, daylight gain, and heat loss/temperature gain, as well as on the heating/cooling load fluctuations. The assessments of these results indicated that the configuration of the “envelope” over the years was thermally vulnerable; the configuration and a detreated condition of the structure had excessive artificial lighting; there was a thermal presence of instability in the museum, a result of the banal and detreated condition of the structure.
+
+3.3. Proposed Passive Interventions
+
+The approach suggests using passive environmental improvements in place of high-impact building materials to repair material deterioration in the historic fabric, drawing on adaptive reuse assessments. The installation of a centrally located skylight intended to maximize natural illumination within the hotel’s center is one of the main interventions. Insulated ceramic tiles, which act as a thermal barrier and lessen heat transfer into the building’s interior, were added to the roof to reduce solar heat gain. In order to preserve architectural coherence with the heritage structure and improve the building’s thermal mass, interior stone finishes were also applied. These changes are intended to enhance the site’s environmental performance while rigorously maintaining its historical relevance. In particular, by supplying natural daylighting and lowering the reliance on artificial lighting, the skylight revitalizes the main hallway. The excessive heat gain that is typical of nearby hotels with insufficient roof insulation is addressed by the insulated roof. The reason for this widespread shortcoming is that old roof systems were not built to contemporary thermal standards. In accordance with these suggestions, the analysis’s second phase tracked changes in thermal comfort and energy use over time using tables and comparison data. The results show that increased daylighting, better solar regulation, and superior insulation significantly lower cooling loads. By minimizing variations, these changes regulated interior temperatures and effectively reduced lighting energy consumption. The results show that integrating several passive systems improves overall performance while preserving the unique integrity of each architectural element. The skylight’s design blends in with the existing historical strata by being passive, reversible, and easily identified. A thin, charter-compliant insulating option that honors the building’s historical memory is offered by the topmost terracotta layer. When combined, these additions enable a useful conversation between the old and the contemporary, enabling the hotel to maintain its charm while operating sustainably in its urban setting. This adaptive reuse strategy is substantially supported by the simulation results. This data demonstrates how focused exterior and system renovations may make historic buildings extremely energy-efficient. The adaptive reuse of underutilized sites is a critical conservation tool for socio-economic and tourism-driven reactivation in Al Tal’s dense urban setting.
+
+Figure 9: Before and after technical modification of the building envelope. The “Before” and “After” conditions of the hotel’s exterior are contrasted in this figure. The original two-story rectangular building had beige walls and a flat concrete roof. The refurbishment alters the envelope by incorporating a central skylight and replacing the flat slab with a tegula-style pitched roof. Specifications are provided for intricate components such as the flashing, insulated glazing, and sash. Stone cladding has been added to the exterior to improve the facade’s aesthetic appeal and thermal mass. When combined, these modifications seek to enhance exterior architectural value and energy efficiency.
+
+
+
+Figure 9. The building before and after changing and adding materials (Researcher).
+
+
+
+Figure 10. Simulation for the building before and after changing and adding materials (Researcher).
+
+Thermal performance simulation before and after envelope upgrades is shown in Figure 10. A thermal color scale is used in this case study to visualize environmental performance. The red and orange zones show significant heat gain on the roof and surfaces in the “Before” state, which can reach 412.098 MBtu/ft2. The change to green and yellow in the “After” picture denotes a successful decrease in heat buildup. These changes—the stone exterior and tile roof—effectively reduce thermal transmission to the interior and sun absorption.
+
+Figure 11 shows the electricity use and heat gain following passive processing. The success of the envelope is directly reflected in the detectable change in daily cooling use. The “After” graph shows a notable decrease in the size and duration of summer cooling loads, whereas the “Before” scenario displays peaks above 400 kWh. This decrease is explained by a lower operating temperature, which improves indoor thermal comfort through insulated roofing and walls. On the other hand, because they are not affected by envelope changes, internal loads such as room electricity and domestic hot water (DHW) stay constant.
+
+
+
+(a) Before
+
+
+
+(b) After
+
+Figure 11. Show the heat gains and energy consumption after adding the process (Researcher).
+
+
+
+(a) Before
+
+
+
+(b) After
+
+Figure 12. Show the CO2 production before adding the process (Researcher).
+
+Figure 12: Analysis of CO2 generation prior to and following intervention. Consistent yearly emission savings after the sustainable retrofit are confirmed by the DesignBuilder research. Every month indicates a decrease in CO2 generation, despite the building’s cooling dominance and peak emissions in August (350 kg). August saw the most absolute savings of 11.25 kg. February saw the most relative improvement, at −6.22%, confirming the envelope’s effectiveness in the winter baseline.
+
+
+
+Figure 13. Result between before and after/the heat gains and energy consumption & CO2 (Researcher).
+
+The performance improvements made possible by the architectural retrofit are confirmed by the energy modeling findings shown in Figure 13. In particular, the building’s environmental impact was successfully decreased by switching to a high-performance envelope, which included ceramic tile roofing for better insulation and stone cladding for higher thermal mass.
+
+The quantifiable decrease in overall energy use is the most important discovery. While the Total Source Energy (which takes production and transmission losses into account) decreased from 16594.26 kWh to 16117.06 kWh, the Total Site Energy decreased from 10983.26 kWh to 10506.06 kWh.
+
+The annual integrated energy savings show how effective the envelope is in lowering the frequency and intensity of peak loads throughout the year, even if peak daily loads for heating and cooling stayed mostly consistent, with peak August cooling standing at 451.08 kWh. Energy intensity measures have improved as a result: +1 Energy per Total Building Area: decreased from 610.81 kWh/m2 to 607.50 kWh/m2. Energy per Conditioned Building Area decreased to 376.90 kWh/m2 from 379.90 kWh/m2. These results demonstrate a significant improvement in the overall operational efficiency of the building.
+
+3.4. Discussion and Analysis
+
+The Raghadan Hotel’s modeling findings highlight how heritage-sensitive adaptive reuse can be used to match conservation goals with high-performance ecological ones. The most important discovery is that the overall annual energy intensity was greatly decreased, even while peak daily loads stayed constant because of the harsh Mediterranean climate. This implies that the suggested interventions—more especially, the stone thermal mass and ceramic tile roof—act as a stabilizing buffer that reduces the occurrence of high-load episodes all year long.
+
+The “double strategy” of maintaining heritage fabric while increasing operating effectiveness is theoretically feasible, according to the study. The synergies listed below were noted: 1) As amended in response to reviewer comments, the building’s thermal mass was largely increased by the stone interior finishes. This, in conjunction with the high-performance roof insulation, effectively reduced the operating temperature. 2) By avoiding the “heat colonization” typical of non-standard glass interventions, the central skylight not only used less energy for artificial lighting but also did so in a passive and insulated manner. 3) Adaptive reuse is a key tactic for mitigating climate change in Lebanon’s built environment, as seen by the decrease in CO2 emissions, which peaked at a 6.22% improvement in the winter.
+
+A noticeable improvement in the building’s overall footprint is shown by the quantifiable decrease in Total Source Energy from 16594.26 kWh to 16117.06 kWh. The study offers a benchmarked procedure that may be used for other Tripoli heritage buildings by lowering the Energy per Conditioned Building Area by roughly 3 kWh/m2. These findings demonstrate that, without compromising architectural uniqueness, antiquated mechanical systems and envelopes in old urban cores like Al Tal may be updated to promote sustainable tourism and urban reactivation.
+
+Although the study offers a strong framework for environmental performance, it is important to recognize some limitations in order to guarantee reproducibility: 1) Baseline Modeling: An abandoned shell is assumed in the “Before” scenario. In order to give a more varied social baseline, future research should examine the performance of partially occupied or “squatted” structures. 2) Technological Scope: Passive interventions were the main focus of the simulation. The CO2 footprint might be further reduced by adding active renewable systems, like subtly fitted solar panels. 3) Local Material Data: Based on area literature, certain U-values for traditional Lebanese sandstone were calculated; more physical laboratory testing of older masonry could improve simulations in the future.
+
+4. Conclusions
+
+This study effectively illustrates the feasibility of adaptive reuse as a technically demanding and ecologically sound approach to Tripoli, Lebanon’s historic building stock rehabilitation. The Raghadan Hotel case study demonstrates how passive, heritage-sensitive interventions, such as adding a central skylight, high-performance roof insulation, and increased thermal mass, can update older buildings without sacrificing their architectural integrity. The suggested interventions were clearly quantitatively justified by the simulation results:
+
+Energy Efficiency: The building’s operational efficiency was successfully optimized, as evidenced by the reduction of the overall site energy usage from 10983.26 kWh to 10506.06 kWh.
+
+Thermal Comfort: By stabilizing operating temperatures and reducing solar heat gain, a pitched terracotta roof and internal stone cladding transformed the building from a thermally vulnerable shell into a cozy interior space.
+
+Carbon Mitigation: The study found that CO2 production consistently decreased throughout the year, with relative efficiency gains as high as 6.22% during the winter.
+
+Daylighting: By strategically placing a central skylight, the hotel’s primary “daylight deprivation” was effectively addressed, greatly lowering the energy consumption of artificial lighting.
+
+In addition to the particular outcomes for the Raghadan Hotel, this study develops a repeatable BPS framework that combines dynamic energy modeling (DesignBuilder) and thermographic analysis. This approach bridges the crucial gap in Lebanese heritage conservation by offering a data-driven way to balance contemporary sustainability demands with the preservation obligations of the Venice Charter. In the end, adaptive reuse of historic structures in densely populated urban areas such as Al Tal is a driver for urban reactivation rather than only a conservation endeavor. This strategy preserves the cultural integrity of the Mediterranean built environment while promoting sustainable tourism and economic revitalization by converting energy-inefficient, abandoned antiques into high-performance assets.
+
+Conflicts of Interest
+
+The authors declare no conflicts of interest regarding the publication of this paper.

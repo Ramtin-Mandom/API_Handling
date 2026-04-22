@@ -1,7 +1,7 @@
 from fastapi.testclient import TestClient
 
 from myAPI import app
-from models import OpenAIAnalysisResponse
+from models import OpenAIFinalResult
 
 client = TestClient(app)
 
@@ -13,29 +13,18 @@ except FileNotFoundError:
 
 response = client.post(
     "/openai-request",
-    json={"input": prompt}
+    json={"text": prompt}
 )
 
-print("Status code:", response.status_code)
-print("Response: ", OpenAIAnalysisResponse(**response.json()).analysis_result)
+# Check status
+assert response.status_code == 200
 
-# _root = Path(__file__).resolve().parent
-# _env = _root / ".env"
-# if not _env.is_file():
-#     raise SystemExit(
-#         f"Missing {_env.name} next to this script.\n"
-#         "Copy .env.example to .env and put your real OPENAI_API_KEY there.\n"
-#         "(Only .env is loaded — .env.example is just a template for GitHub.)"
-#     )
-# load_dotenv(_env)
+# Parse response
+result = OpenAIFinalResult(**response.json())
 
-# client = OpenAI()
+# Print + save output
+print(result.final_text)
 
-# response = client.chat.completions.create(
-#     model="gpt-4o-mini",
-#     messages=[
-#         {"role": "user", "content": "Give me a fun fact about space."}
-#     ]
-# )
-
-# print(response.choices[0].message.content)
+with open("output.txt", "w", encoding="utf-8") as file:
+    file.write(f"Status code: {response.status_code}\n\n")
+    file.write(result.final_text)

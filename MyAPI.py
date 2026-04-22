@@ -1,8 +1,7 @@
 from token import OP
 from fastapi import FastAPI
-from models import InputText, OutputText
-from models import OpenAIInput, OpenAIAnalysisResponse
-from services import analyze_text, openai_request_clean_up, openai_request, analyze_openai_response
+from models import OpenAIFinalResult, OpenAIInput
+from services import  openai_request_process, openai_request, evaluate_openai_response, final_clean_up
 
 app = FastAPI()
 
@@ -14,16 +13,14 @@ async def root():
 async def say_hello(name: str):
     return {"message": f"Hello, {name}"}
 
-@app.post("/analyze-text", response_model=OutputText)
-async def analyze_text_endpoint(data: InputText):
-    return analyze_text(data)
-@app.post("/openai-request", response_model=OpenAIAnalysisResponse)
-async def openai_request_endpoint(data: OpenAIInput) -> OpenAIAnalysisResponse:
-    cleaned_request = openai_request_clean_up(data)
-    openai_raw_response = openai_request(cleaned_request)
-    analyzed_response = analyze_openai_response(openai_raw_response)
+@app.post("/openai-request", response_model=OpenAIFinalResult)
+async def openai_request_endpoint(data: OpenAIInput) -> OpenAIFinalResult:
+    cleaned_request = openai_request_process(data)
+    openAI_raw_response = openai_request(cleaned_request)
+    evaluated_response = evaluate_openai_response(openAI_raw_response)
+    final_result = final_clean_up(evaluated_response, openAI_raw_response)
 
-    return analyzed_response
+    return final_result
 # class EchoResponse(BaseModel):
 #     received_text: str
 #     length: int  
