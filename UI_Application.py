@@ -14,7 +14,7 @@ if str(BASE_DIR) not in sys.path:
 try:
     from app.myAPI import openai_request_endpoint
     from app.models import OpenAIInput
-    from pdf_converter import pdf_to_text, text_to_pdf
+    from app.pdf_converter import pdf_to_text, text_to_pdf
 except ImportError as e:
     raise ImportError(
         "Could not import the required project files.\n\n"
