@@ -1,0 +1,8 @@
+$kind: collection
+name: Paper Summary Studio
+description: API collection for the Paper Summary Studio — a multi-prompt academic paper summarization system built with FastAPI and OpenAI.
+variables:
+  - key: baseUrl
+    value: 'http://127.0.0.1:8000'
+  - key: name
+    value: Ramtin

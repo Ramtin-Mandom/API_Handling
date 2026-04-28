@@ -1,0 +1,18 @@
+$kind: http-request
+name: Say Hello
+method: GET
+url: '{{baseUrl}}/hello/{{name}}'
+order: 2000
+description: Returns a greeting for the given name path parameter. The `name` variable should be set as a collection variable with a default value of `"Ramtin"`.
+scripts:
+  - type: afterResponse
+    language: text/javascript
+    code: |-
+      pm.test("Status code is 200", function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test("Response JSON has a message field", function () {
+          const jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property("message");
+      });

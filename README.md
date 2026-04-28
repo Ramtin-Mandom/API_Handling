@@ -166,6 +166,18 @@ pytest -v
 
 ---
 
+## API Testing (Postman)
+
+This project includes a Postman test collection used for manual API and integration testing. 
+The collection verifies:
+
+- Health check endpoint functionality (`GET /`)
+- Route parameter handling (`GET /hello/{name}`)
+- Successful paper summarization requests (`POST /openai-request`)
+- Input validation for missing required fields (422 errors)
+- Input validation for incorrect data types (422 errors)
+- Basic OpenAI connectivity testing
+
 ## Author
 
 Ramtin Rezaei  

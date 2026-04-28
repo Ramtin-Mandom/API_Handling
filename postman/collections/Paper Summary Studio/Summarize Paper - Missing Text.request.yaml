@@ -1,0 +1,20 @@
+$kind: http-request
+name: Summarize Paper - Missing Text
+method: POST
+url: '{{baseUrl}}/openai-request'
+order: 4000
+description: Validation test — sends an empty body to verify the API returns a 422 Unprocessable Entity error when the required `text` field is missing.
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {}
+scripts:
+  - type: afterResponse
+    language: text/javascript
+    code: |-
+      pm.test("Status code is 422", function () {
+          pm.response.to.have.status(422);
+      });

@@ -1,0 +1,20 @@
+$kind: http-request
+name: Summarize Paper - Wrong Type
+method: POST
+url: '{{baseUrl}}/openai-request'
+order: 5000
+description: Validation test — sends a number instead of a string for `text` to verify the API returns a 422 Unprocessable Entity error.
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {"text": 123}
+scripts:
+  - type: afterResponse
+    language: text/javascript
+    code: |-
+      pm.test("Status code is 422", function () {
+          pm.response.to.have.status(422);
+      });

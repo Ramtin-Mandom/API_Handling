@@ -1,0 +1,33 @@
+$kind: http-request
+name: Summarize Paper
+method: POST
+url: '{{baseUrl}}/openai-request'
+order: 3000
+description: Submits academic paper text for AI summarization. Sends multiple prompt variations to OpenAI, evaluates all summaries, and returns the best one.
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "text": "Reply with exactly: REQUEST RECEIVED"
+    }
+scripts:
+  - type: afterResponse
+    language: text/javascript
+    code: |-
+      pm.test("Status code is 200", function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test("Response JSON has a final_text field that is a non-empty string", function () {
+          const jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property("final_text");
+          pm.expect(jsonData.final_text).to.be.a("string").and.to.have.length.above(0);
+      });
+
+      pm.test("Returns expected confirmation", function () {
+      const jsonData = pm.response.json();
+      pm.expect(jsonData.final_text).to.include("REQUEST RECEIVED");
+      });

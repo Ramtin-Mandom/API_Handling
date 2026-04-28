@@ -34,6 +34,9 @@ dist/
 .vscode/
 .idea/
 
+# Postman local workspace metadata
+.postman/
+
 # Jupyter
 .ipynb_checkpoints/
 
